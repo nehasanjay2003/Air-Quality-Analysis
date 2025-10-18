@@ -2,25 +2,25 @@
 
 This project analyzes large-scale air quality data from Indian cities to identify pollution trends, major contributing pollutants, and seasonal or temporal patterns. Built using PySpark for scalable data processing and Matplotlib for visualization, the analysis provides insights to support environmental planning and public health policy.
 
-Features
+# Features
 
-Data Cleaning & Preprocessing
+# Data Cleaning & Preprocessing
 • Handled missing values and standardized column names.
 • Converted date columns and extracted temporal features (month, year, season).
 
-Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 • Computed average AQI (Air Quality Index) by city, month, and year.
 • Identified top 5 polluted cities for each major pollutant (PM2.5, PM10, NO₂, SO₂, CO, O₃).
 • Analyzed seasonal pollution trends (Winter, Summer, Monsoon, Post-Monsoon).
 
-Correlation Analysis
+# Correlation Analysis
 • Calculated pollutant correlations to study co-variability and pollutant interactions.
 
-Visualization
+# Visualization
 • Line and bar plots showing monthly, yearly, and seasonal trends.
 • AQI level categorization (Good → Severe).
 
- Technologies Used
+ # Technologies Used
 
 Apache PySpark — distributed data processing
 
@@ -28,7 +28,7 @@ Matplotlib / Pandas — visualization and summary statistics
 
 Jupyter / Colab — interactive development environment
 
-Dataset
+# Dataset
 
 The dataset city_day.csv contains daily air quality metrics across Indian cities, including:
 
@@ -41,7 +41,7 @@ Air Quality Index (AQI)
 You can download the dataset from the Kaggle: Air Quality Data in India (2015–2020)
  source.
 
-Setup & Execution
+# Setup & Execution
 
 Clone the Repository
 
@@ -59,7 +59,7 @@ Run the Script
 python air_quality_analysis.py
 
 
-Output
+# Output
 
 Aggregated AQI statistics by city, month, and season
 
