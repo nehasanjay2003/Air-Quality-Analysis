@@ -38,8 +38,7 @@ Pollutant concentrations (PM2.5, PM10, NO₂, SO₂, CO, O₃)
 
 Air Quality Index (AQI)
 
-You can download the dataset from the Kaggle: Air Quality Data in India (2015–2020)
- source.
+
 
 # Setup & Execution
 
