@@ -136,3 +136,5 @@ df = df.withColumn("AQI_Level",
 )
 
 df.groupBy("AQI_Level").count().orderBy("count", ascending=False).show()
+# Go to your repository folder
+cd path/to/india-air-quality-analysis
